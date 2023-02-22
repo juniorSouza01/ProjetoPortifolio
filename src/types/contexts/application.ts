@@ -1,6 +1,6 @@
 import { ReactElement, ReactNode } from 'react';
 
-export type AplicationContextProps = {
+export type ApplicationContextProps = {
     isMoreThanTablet: boolean
 }
 
