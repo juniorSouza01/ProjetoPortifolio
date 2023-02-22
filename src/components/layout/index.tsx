@@ -56,7 +56,16 @@ const Component = ({ children }: LayoutProps) => {
     }
   }
 
+  function cursorScalableLeave() {
+    const inner = innerCursor.current
+    const outer = outerCursor.current
 
+    if (inner && outer) {
+      inner.style.transform = `translate(-50%, -50%) scale(1)`
+      inner.style.mixBlendMode = `unset`
+      outer.style.transform = `translate(-50%, -50%) scale(1)`
+    }
+  }
 
   function huggedButtonMove(event: MouseEvent) {
     const inner = innerCursor.current
