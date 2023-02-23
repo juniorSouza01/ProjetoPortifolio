@@ -38,7 +38,7 @@ const Component = () => {
                                     bg: useColorModeValue('rgba(191,78,99, .1)' , 'mauve_dark.1000'),
                                 }}
                             >
-                                <Text color="#BF4E63" as="span">
+                                <Text color="#3D1365" as="span">
                                     Junior
                                 </Text>
                                     Souza

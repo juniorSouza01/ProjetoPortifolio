@@ -159,7 +159,7 @@ const Component = ({ children }: LayoutProps) => {
           lg: 'block',
         }}
         borderRadius="9999px"
-        bg="#BF4E63"
+        bg="#3D1365"
         pos="fixed"
         top="-50%"
         left="-50%"
@@ -177,7 +177,7 @@ const Component = ({ children }: LayoutProps) => {
           base: 'none',
           lg: 'block',
         }}
-        border="1px solid #BF4E63"
+        border="1px solid #3D1365"
         borderRadius="28px"
         pos="fixed"
         top="-50%"
