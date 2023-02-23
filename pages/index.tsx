@@ -49,7 +49,7 @@ const Page: NextPageWithLayout = () => {
                 color={useColorModeValue('mauve_light.200', 'mauve_dark.100')}
                 fontWeight="bold"
               >
-                React Native Developer
+                Front-end Developer
               </Text>
               <Text
                 maxW="512px"
@@ -109,4 +109,4 @@ Page.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>
 }
 
-export default Page;
+export default Page
