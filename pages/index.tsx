@@ -49,14 +49,18 @@ const Page: NextPageWithLayout = () => {
                 color={useColorModeValue('mauve_light.200', 'mauve_dark.80')}
                 fontWeight="bold"
               >
+                <div style={{ float: "right" }}>
+                  <img src="/img/hero-illustration.svg" width="500px" height="500px" alt="Hero illustration"/>
+                </div>
+
                 Front-end Developer
               </Text>
               <Text
-                maxW="512px"
+                maxW="510px"
                 color={useColorModeValue('mauve_light.400', 'mauve_dark.200')}
                 fontWeight="bold"
               >
-                Estudando desenvolvimento front-end e demais tecnologias da área
+                Estudando desenvolvimento front-end utilizando React.js para aplicações Web e React Native para mobile
               </Text>
             </Flex>
             <Flex

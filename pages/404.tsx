@@ -41,7 +41,7 @@ const Page:  NextPageWithLayout = () => {
                 as="h1"
                 >
                     4
-                    <Text color="#663366" as="span">
+                    <Text color="#333333" as="span">
                         zero
                     </Text>
                     4
@@ -77,7 +77,7 @@ const Page:  NextPageWithLayout = () => {
                             border="1px solid #999999"
                             borderRadius="6px"
                             px="12px"
-                            bg="#663366"
+                            bg="#333333"
                             color={mColor}
                             _hover={{ bg: "#999999" }}
 

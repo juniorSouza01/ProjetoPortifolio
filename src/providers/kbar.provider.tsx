@@ -245,7 +245,7 @@ const Results = () => {
       css={{
         '> div': {
           marginInline: '3px',
-          color: useColorModeValue('rgba(0,0,0,.3)', 'rgba(255,255,255,.2)'),
+          color: useColorModeValue('rgba(20,0,0,.3)', 'rgba(255,255,255,.2)'),
           scrollbarWidth: 'thin',
           '&::-webkit-scrollbar': { width: '4px' },
           '&::-webkit-scrollbar-track': { width: '6px' },
