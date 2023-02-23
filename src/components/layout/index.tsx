@@ -146,7 +146,7 @@ const Component = ({ children }: LayoutProps) => {
       h="100vh"
       position="relative"
       overflow="auto"
-      bg={useColorModeValue('mauve_light.1200', 'mauve_dark.1200')}
+      bg={useColorModeValue('mauve_light.1200', 'mauve_dark.240')}
       color="mauve_dark.100"
       cursor="none"
     >
@@ -159,7 +159,7 @@ const Component = ({ children }: LayoutProps) => {
           lg: 'block',
         }}
         borderRadius="9999px"
-        bg="#3D1365"
+        bg="#2F9C99"
         pos="fixed"
         top="-50%"
         left="-50%"
@@ -177,7 +177,7 @@ const Component = ({ children }: LayoutProps) => {
           base: 'none',
           lg: 'block',
         }}
-        border="1px solid #3D1365"
+        border="1px solid #2F9C99"
         borderRadius="28px"
         pos="fixed"
         top="-50%"

@@ -32,13 +32,13 @@ const Component = () => {
                                 fontWeight="600"
                                 fontFamily="Outfit, sans-serif"
                                 p="2px 12px"
-                                color={useColorModeValue('rgba(191,78,99,,1)' , 'mauve_dark.100')}
+                                color={useColorModeValue("#333333" , 'mauve_dark.100')}
                                 _hover={{
                                     borderRadius: '4px',
-                                    bg: useColorModeValue('rgba(191,78,99, .1)' , 'mauve_dark.1000'),
+                                    bg: useColorModeValue("#333333" , 'mauve_dark.1000'),
                                 }}
                             >
-                                <Text color="#3D1365" as="span">
+                                <Text color="#2F9C99" as="span">
                                     Junior
                                 </Text>
                                     Souza

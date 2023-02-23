@@ -17,8 +17,8 @@ const Page: NextPageWithLayout = () => {
   const { query } = useKBar()
   const { isMoreThanTablet } = useApplicationContext()
 
-  const kbd_bg = useColorModeValue('mauve_light.400', 'mauve_dark.400')
-  const kbd_color = useColorModeValue('mauve_light.1200', 'mauve_dark.1200')
+  const kbd_bg = useColorModeValue('mauve_light.400', 'mauve_dark.300')
+  const kbd_color = useColorModeValue('mauve_light.1200', 'mauve_dark.1000')
 
   return (
     <Box w="100%" pos="relative">
@@ -38,7 +38,7 @@ const Page: NextPageWithLayout = () => {
           >
             <Heading
               px="12px"
-              color={useColorModeValue('mauve_light.100', 'mauve_dark.100')}
+              color={useColorModeValue('mauve_light.100', 'mauve_dark.80')}
               fontSize="48px"
               as="h1"
             >
@@ -46,14 +46,14 @@ const Page: NextPageWithLayout = () => {
             </Heading>
             <Flex flexDir="column" px="12px" gap="10px">
               <Text
-                color={useColorModeValue('mauve_light.200', 'mauve_dark.100')}
+                color={useColorModeValue('mauve_light.200', 'mauve_dark.80')}
                 fontWeight="bold"
               >
                 Front-end Developer
               </Text>
               <Text
                 maxW="512px"
-                color={useColorModeValue('mauve_light.400', 'mauve_dark.300')}
+                color={useColorModeValue('mauve_light.400', 'mauve_dark.200')}
                 fontWeight="bold"
               >
                 Estudando desenvolvimento front-end e demais tecnologias da área
@@ -63,20 +63,20 @@ const Page: NextPageWithLayout = () => {
               gap="8px"
               px="12px"
               bg={{
-                base: 'rgba(191,78,99, 0.1)',
+                base: "#333333",
                 lg: 'transparent',
               }}
               border={{
-                base: '1px solid rgba(191,78,99, 1)',
+                base: '1px solid #666666',
                 lg: 'none',
               }}
               color={{
-                base: useColorModeValue('rgba(191,78,99, 1)', 'mauve_dark.100'),
-                lg: useColorModeValue('mauve_light.200', 'mauve_dark.100'),
+                base: useColorModeValue("#808080", 'mauve_dark.80'),
+                lg: useColorModeValue('mauve_light.200', 'mauve_dark.80'),
               }}
               _hover={{
                 bg: {
-                  base: 'rgba(191,78,99, 0.2)',
+                  base: "#666666",
                   lg: 'none',
                 },
               }}

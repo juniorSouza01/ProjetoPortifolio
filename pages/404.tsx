@@ -11,11 +11,11 @@ const Page:  NextPageWithLayout = () => {
     const { query } = useKBar();
     const { isMoreThanTablet } = useApplicationContext();
 
-    const kbd_bg = useColorModeValue('mauve_light.400', 'mauve_dark.400');
-    const kbd_color = useColorModeValue('mauve_light.1200', 'mauve_dark.1200');
+    const kbd_bg = useColorModeValue('mauve_light.500', 'mauve_dark.300');
+    const kbd_color = useColorModeValue('mauve_light.1200', 'mauve_dark.1000');
 
-    const mColor = useColorModeValue('rgba(191,78,99, 1)', 'mauve_dark.100');
-    const dColor = useColorModeValue('mauve_light.200', 'mauve_dark.100');
+    const mColor = useColorModeValue("#666666", 'mauve_dark.80');
+    const dColor = useColorModeValue('mauve_light.200', 'mauve_dark.80');
 
     return (
         <Flex
@@ -36,12 +36,12 @@ const Page:  NextPageWithLayout = () => {
             >
                 <Heading
                 px="12px"
-                color={useColorModeValue('mauve_light.100', 'mauve_dark.100')}
+                color={useColorModeValue('mauve_light.300', 'mauve_dark.80')}
                 fontSize="48px"
                 as="h1"
                 >
                     4
-                    <Text color="rgba(191,78,99, 1)" as="span">
+                    <Text color="#663366" as="span">
                         zero
                     </Text>
                     4
@@ -74,12 +74,12 @@ const Page:  NextPageWithLayout = () => {
                             display="inline-flex"
                             alignItems="center"
                             justifyContent="center"
-                            border="1px solid rgba(191,78,99, 1)"
+                            border="1px solid #999999"
                             borderRadius="6px"
                             px="12px"
-                            bg="rgba(191,78,99, 0.1)"
+                            bg="#663366"
                             color={mColor}
-                            _hover={{ bg: 'rgba(191,78,99, 0.2)' }}
+                            _hover={{ bg: "#999999" }}
 
                             >
                                 Toque para voltar ao início

@@ -117,7 +117,7 @@ const Positioner = ({ children }: { children: ReactNode }) => {
       alignItems="flex-start"
       justifyContent="center"
       inset="0"
-      bg="rgba(0,0,0,0.6)"
+      bg="rgba(0,0,0,0.16)"
       zIndex="20"
       p="14vh 24px 24px"
       as={KBarPositioner}
