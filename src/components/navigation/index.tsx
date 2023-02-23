@@ -1,11 +1,11 @@
-import NextLink from 'next/link';
+import NextLink from 'next/link'
 import {
     IconBrandCodepen,
     IconBrandGithub,
     IconBrandLinkedin,
     IconMoon,
     IconSun
-} from '@tabler/icons';
+} from '@tabler/icons'
 
 import {
     Box,
@@ -18,10 +18,10 @@ import {
     Text,
     useColorMode,
     useColorModeValue
-} from '@chakra-ui/react';
+} from '@chakra-ui/react'
 
 const Component = () => {
-    const { colorMode, toggleColorMode } = useColorMode();
+    const { colorMode, toggleColorMode } = useColorMode()
     return (
         <Box w="100%" h="56px" pos="absolute" top="0" left="0" bg="inherit" zIndex="10">
             <Container maxW="100%" h="100%">
@@ -136,4 +136,4 @@ const Component = () => {
   )
 }
 
-export default Component;
+export default Component
