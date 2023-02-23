@@ -1,6 +1,5 @@
 import NextLink from 'next/link'
 import {
-    IconBrandCodepen,
     IconBrandGithub,
     IconBrandLinkedin,
     IconMoon,
@@ -67,7 +66,6 @@ const Component = () => {
                                     href=""
                                     target="_blank"
                                 >
-                               <IconBrandCodepen />
                 </Flex>
               </ListItem>
               <ListItem>

@@ -1,7 +1,6 @@
 import { forwardRef, ReactNode, useRef } from 'react'
 import { useRouter } from 'next/router'
 import {
-  IconBrandCodepen,
   IconBrandGithub,
   IconBrandLinkedin,
   IconCode,
@@ -65,16 +64,6 @@ const Provider = ({ children }: { children: ReactNode }) => {
       shortcut: ['e'],
       keywords: 'send-mail',
       perform: () => window.open('mailto:juniorthesouza017@gmail.com', '_blank'),
-    },
-    {
-      id: 'social-codepen',
-      name: 'Codepen',
-      subtitle: ' ',
-      section: 'Sociais',
-      icon: <IconBrandCodepen strokeWidth={1.5} />,
-      shortcut: ['f', 'c'],
-      keywords: 'go-codepen',
-      perform: () => window.open(' ', '_blank'),
     },
     {
       id: 'social-linkedin',
