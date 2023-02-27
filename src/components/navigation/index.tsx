@@ -1,10 +1,11 @@
-import NextLink from 'next/link'
+/* eslint-disable react/react-in-jsx-scope */
+import NextLink from 'next/link';
 import {
     IconBrandGithub,
     IconBrandLinkedin,
     IconMoon,
     IconSun
-} from '@tabler/icons'
+} from '@tabler/icons';
 
 import {
     Box,
@@ -17,10 +18,10 @@ import {
     Text,
     useColorMode,
     useColorModeValue
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
 
 const Component = () => {
-    const { colorMode, toggleColorMode } = useColorMode()
+    const { colorMode, toggleColorMode } = useColorMode();
     return (
         <Box w="100%" h="56px" pos="absolute" top="0" left="0" bg="inherit" zIndex="10">
             <Container maxW="100%" h="100%">
@@ -66,72 +67,72 @@ const Component = () => {
                                     href=""
                                     target="_blank"
                                 >
+                                </Flex>
+                            </ListItem>
+                            <ListItem>
+                                <Flex
+                                    w="40px"
+                                    h="40px"
+                                    d="flex"
+                                    alignItems="center"
+                                    justifyContent="center"
+                                    _hover={{
+                                        borderRadius: '4px',
+                                        bg: useColorModeValue('mauve_light.800', 'mauve_dark.1000'),
+                                    }}
+                                    as={Link}
+                                    href="https://www.linkedin.com/in/junior-souza-974932245/"
+                                    target="_blank"
+                                >
+                                    <IconBrandLinkedin />
+                                </Flex>
+                            </ListItem>
+                            <ListItem>
+                                <Flex
+                                    w="40px"
+                                    h="40px"
+                                    d="flex"
+                                    alignItems="center"
+                                    justifyContent="center"
+                                    _hover={{
+                                        borderRadius: '4px',
+                                        bg: useColorModeValue('mauve_light.800', 'mauve_dark.1000'),
+                                    }}
+                                    as={Link}
+                                    href="https://github.com/juniorSouza01"
+                                    target="_blank"
+                                >
+                                    <IconBrandGithub />
+                                </Flex>
+                            </ListItem>
+                        </Flex>
+                        <Flex gap="4px" as={List}>
+                            <ListItem>
+                                <Flex
+                                    w="40px"
+                                    h="40px"
+                                    p="0"
+                                    d="flex"
+                                    alignItems="center"
+                                    justifyContent="center"
+                                    bg="transparent"
+                                    color={useColorModeValue('mauve_light.200', 'mauve_dark.100')}
+                                    _hover={{
+                                        borderRadius: '4px',
+                                        bg: useColorModeValue('mauve_light.800', 'mauve_dark.1000'),
+                                    }}
+                                    as={Button}
+                                    onClick={toggleColorMode}
+                                >
+                                    {colorMode === 'dark' ? <IconMoon /> : <IconSun />}
+                                </Flex>
+                            </ListItem>
+                        </Flex>
+                    </Flex>
                 </Flex>
-              </ListItem>
-              <ListItem>
-                <Flex
-                  w="40px"
-                  h="40px"
-                  d="flex"
-                  alignItems="center"
-                  justifyContent="center"
-                  _hover={{
-                    borderRadius: '4px',
-                    bg: useColorModeValue('mauve_light.800', 'mauve_dark.1000'),
-                  }}
-                  as={Link}
-                  href="https://www.linkedin.com/in/junior-souza-974932245/"
-                  target="_blank"
-                >
-                  <IconBrandLinkedin />
-                </Flex>
-              </ListItem>
-              <ListItem>
-                <Flex
-                  w="40px"
-                  h="40px"
-                  d="flex"
-                  alignItems="center"
-                  justifyContent="center"
-                  _hover={{
-                    borderRadius: '4px',
-                    bg: useColorModeValue('mauve_light.800', 'mauve_dark.1000'),
-                  }}
-                  as={Link}
-                  href="https://github.com/juniorSouza01"
-                  target="_blank"
-                >
-                  <IconBrandGithub />
-                </Flex>
-              </ListItem>
-            </Flex>
-            <Flex gap="4px" as={List}>
-              <ListItem>
-                <Flex
-                  w="40px"
-                  h="40px"
-                  p="0"
-                  d="flex"
-                  alignItems="center"
-                  justifyContent="center"
-                  bg="transparent"
-                  color={useColorModeValue('mauve_light.200', 'mauve_dark.100')}
-                  _hover={{
-                    borderRadius: '4px',
-                    bg: useColorModeValue('mauve_light.800', 'mauve_dark.1000'),
-                  }}
-                  as={Button}
-                  onClick={toggleColorMode}
-                >
-                  {colorMode === 'dark' ? <IconMoon /> : <IconSun />}
-                </Flex>
-              </ListItem>
-            </Flex>
-          </Flex>
-        </Flex>
-      </Container>
-    </Box>
-  )
-}
+            </Container>
+        </Box>
+    );
+};
 
-export default Component
+export default Component;
