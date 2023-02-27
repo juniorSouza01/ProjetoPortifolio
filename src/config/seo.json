@@ -1,85 +1,84 @@
 {
-    "title": "Osney A. de Souza Junior",
-    "description": "Portfólio pessoal com o objetivo de mostrar meus projetos durante minha carreira.",
-    "additionalMetaTags": [
-      {
-        "name": "theme-color",
-        "content": "#161618"
-      },
-      {
-        "name": "author",
-        "content": "meluiz#2667"
-      },
-      {
-        "name": "apple-mobile-web-app-capable",
-        "content": "yes"
-      },
-      {
-        "name": "apple-mobile-web-app-status-bar-style",
-        "content": "black-translucent"
-      }
-    ],
-    "additionalLinkTags": [
-      {
-        "rel": "icon",
-        "href": "/icons/favicon_32.png"
-      },
-      {
-        "rel": "icon",
-        "href": "/icons/favicon_16.png",
-        "sizes": "16x16"
-      },
-      {
-        "rel": "icon",
-        "href": "/icons/favicon_24.png",
-        "sizes": "24x24"
-      },
-      {
-        "rel": "icon",
-        "href": "/icons/favicon_32.png",
-        "sizes": "32x32"
-      },
-      {
-        "rel": "icon",
-        "href": "/icons/favicon_48.png",
-        "sizes": "48x48"
-      },
-      {
-        "rel": "icon",
-        "href": "/icons/favicon_64.png",
-        "sizes": "64x64"
-      },
-      {
-        "rel": "apple-touch-icon",
-        "href": "/favicons/favicon_152.png",
-        "sizes": "152x152"
-      },
-      {
-        "rel": "apple-touch-icon",
-        "href": "/favicons/favicon_167.png",
-        "sizes": "167x168"
-      },
-      {
-        "rel": "apple-touch-icon",
-        "href": "/favicons/favicon_180.png",
-        "sizes": "180x180"
-      }
-    ],
-    "openGraph": {
-      "title": "Junior Souza",
-      "description": "Portfólio pessoal com o objetivo de mostrar meus projetos durante minha carreira.",
-      "site_name": ".",
-      "type": "website",
-      "locale": "pt_BR",
-      "url": "https://github.com/juniorSouza01",
-      "images": [
-        {
-          "url": "https://www.imagenspng.com.br/24879/sem-categoria/flork-png-29/attachment/flork-png-29-2/",
-          "width": 1920,
-          "height": 1080,
-          "alt": "Open Graph Image"
-        }
-      ]
+  "title": "Osney A. de Souza Junior",
+  "description": "Portfólio pessoal com o objetivo de mostrar meus projetos durante minha carreira.",
+  "additionalMetaTags": [
+    {
+      "name": "theme-color",
+      "content": "#161618"
+    },
+    {
+      "name": "author",
+      "content": "JuniorSouza"
+    },
+    {
+      "name": "apple-mobile-web-app-capable",
+      "content": "yes"
+    },
+    {
+      "name": "apple-mobile-web-app-status-bar-style",
+      "content": "black-translucent"
     }
+  ],
+  "additionalLinkTags": [
+    {
+      "rel": "icon",
+      "href": "/icons/favicon_32.png"
+    },
+    {
+      "rel": "icon",
+      "href": "/icons/favicon_16.png",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "icon",
+      "href": "/icons/favicon_24.png",
+      "sizes": "24x24"
+    },
+    {
+      "rel": "icon",
+      "href": "/icons/favicon_32.png",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "/icons/favicon_48.png",
+      "sizes": "48x48"
+    },
+    {
+      "rel": "icon",
+      "href": "/icons/favicon_64.png",
+      "sizes": "64x64"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "/favicons/favicon_152.png",
+      "sizes": "152x152"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "/favicons/favicon_167.png",
+      "sizes": "167x168"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "/favicons/favicon_180.png",
+      "sizes": "180x180"
+    }
+  ],
+  "openGraph": {
+    "title": "Junior Souza",
+    "description": "Portfólio pessoal.",
+    "site_name": "LittleIce",
+    "type": "website",
+    "locale": "pt_BR",
+    "url": " ",
+    "images": [
+      {
+        "url": " ",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Open Graph Image"
+      }
+    ]
   }
-  
+}
