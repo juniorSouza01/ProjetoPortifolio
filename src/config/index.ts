@@ -1,1 +1,1 @@
-export { default as SEOConfig } from './seo.json'
+export { default as SEOConfig } from './seo.json';

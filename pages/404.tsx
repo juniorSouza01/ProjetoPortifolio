@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import type { NextPageWithLayout } from '@src/types/next';
 import { Fragment, ReactElement } from 'react';
 import { useApplicationContext } from '@src/contexts';
@@ -19,26 +20,26 @@ const Page:  NextPageWithLayout = () => {
 
     return (
         <Flex
-        w="100%"
-        h="calc(100% - 56px)"
-        flexDir="row"
-        alignItems="center"
-        justifyContent="center"
-        color="purple"
-        pos="relative"
-        >
-            <Flex
-            flexDir="column"
+            w="100%"
+            h="calc(100% - 56px)"
+            flexDir="row"
             alignItems="center"
             justifyContent="center"
-            gap="16px"
-            textAlign="center"
+            color="purple"
+            pos="relative"
+        >
+            <Flex
+                flexDir="column"
+                alignItems="center"
+                justifyContent="center"
+                gap="16px"
+                textAlign="center"
             >
                 <Heading
-                px="12px"
-                color={useColorModeValue('mauve_light.300', 'mauve_dark.80')}
-                fontSize="48px"
-                as="h1"
+                    px="12px"
+                    color={useColorModeValue('mauve_light.300', 'mauve_dark.80')}
+                    fontSize="48px"
+                    as="h1"
                 >
                     4
                     <Text color="#333333" as="span">
@@ -48,13 +49,13 @@ const Page:  NextPageWithLayout = () => {
                 </Heading>
                 {isMoreThanTablet ? (
                     <Flex
-                    gap="8px"
-                    px="12px"
-                    color={dColor}
-                    bg="transparent"
-                    _hover={{ bg: 'transparent' }}
-                    onClick={() => query.toggle()}
-                    as={Button}
+                        gap="8px"
+                        px="12px"
+                        color={dColor}
+                        bg="transparent"
+                        _hover={{ bg: 'transparent' }}
+                        onClick={() => query.toggle()}
+                        as={Button}
                     >
                         <Fragment>
                             Pressione{' '}
@@ -66,7 +67,7 @@ const Page:  NextPageWithLayout = () => {
                             </Text>{' '}
                                 para ir ao início
                         </Fragment>
-                        </Flex>
+                    </Flex>
                 ) : (
                     <NextLink href="/" passHref>
                         <Link 
@@ -81,18 +82,18 @@ const Page:  NextPageWithLayout = () => {
                             color={mColor}
                             _hover={{ bg: "#999999" }}
 
-                            >
+                        >
                                 Toque para voltar ao início
-                            </Link>
+                        </Link>
                     </NextLink>
                 )}
             </Flex>
         </Flex>
-    )
-}
+    );
+};
 
 Page.getLayout = function getLayout(page: ReactElement) {
-    return <Layout>{page}</Layout>
-}
+    return <Layout>{page}</Layout>;
+};
 
 export default Page;
